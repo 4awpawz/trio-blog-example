@@ -1,0 +1,25 @@
+.blog {
+}
+
+.blog__article-list, .blog__category-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blog__article-list-item, .blog__category-list-item  {
+    color: $lighter-text-color;
+}
+
+@media (min-width: 640px) {
+    .blog__content-container {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .blog__category-list {
+        flex: 25%;
+    }
+    .blog__body {
+        flex: 75%;
+    }
+}
