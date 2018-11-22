@@ -12,6 +12,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 10px 0;
+    color: $lighter-text-color;
 }
 
 h1 {
@@ -37,4 +38,12 @@ h5 {
 
 h6 {
     font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: $default-border-radius;
 }

@@ -35,3 +35,22 @@
     margin: 10px 0;
     color: $lighter-text-color;
 }
+
+@media (min-width: 640px) {
+    .header__navbar-items {
+        list-style: none;
+    }
+    .header__navbar-item {
+        display: inline-block;
+        width: initial;
+    }
+    .header__navbar-item-link {
+        padding: 0 1.5rem;
+    }
+    .header__navbar-item:first-child .header__navbar-item-link {
+        text-align: right;
+    }
+    .header__navbar-item:last-child .header__navbar-item-link {
+        text-align: left;
+    }
+}

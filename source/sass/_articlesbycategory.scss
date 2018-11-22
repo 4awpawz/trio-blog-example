@@ -1,0 +1,17 @@
+.articles-by-category {
+    display: block;
+}
+
+.articles-by-category__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.articles-by-category__list-item {
+    color: $lighter-text-color;
+}
+
+.articles-by-category__list-item-link {
+    color: inherit;
+}

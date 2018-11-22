@@ -1,9 +1,10 @@
 <!-- 
 template: article.html
-title: My Second Blog
+title: Food, My Passion
 appendToTarget: true
-category: italian food
+category: food
 callback: article
+image: thanks-giving-day-table.jpg
 -->
 I'm a foodie. I love everything about food. I love cooking it and I love to eat it.
 <!-- end -->

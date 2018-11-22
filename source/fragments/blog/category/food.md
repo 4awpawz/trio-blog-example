@@ -1,8 +1,8 @@
 <!-- 
-template: category.html
-title: Category
-appendToTarget: true
+template: articlesbycategory.html
+title: Articles About Food
 forCategory: food
+callback: articlesbycategory
 -->
 
-# Food
+# Food Articles
