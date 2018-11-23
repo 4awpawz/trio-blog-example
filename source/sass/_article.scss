@@ -5,17 +5,25 @@
     padding-bottom: 15px;
 }
 
+.article p:last-child {
+    margin-bottom: 0;
+}
+
 .article__img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 275px;
     @extend %img-shadow;
 }
 
 .article__title {
-    margin-top: 10px;
+    margin-bottom: 0;
 }
 
-@media (min-width: 640px) {
+.article__info {
+    font-size: .8rem;
+}
+
+@media (min-width: 992px) {
     .article__img {
         width: 100%;
         height: 350px;

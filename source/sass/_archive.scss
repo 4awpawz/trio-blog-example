@@ -1,18 +1,16 @@
 .archive {
-    display: block;
+    @extend %archive;
 }
 
-.archive-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.archive__list {
+    @extend %archive__list;
 }
 
-.archive-list__item {
-    color: $lighter-text-color;
+.archive__list-item {
+    @extend %archive__list-item;
 }
 
-.archive-list__item-link {
-    color: inherit;
+.archive__list-item-link {
+    @extend %archive__list-item-link;
 }
 

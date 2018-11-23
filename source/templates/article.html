@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <link data-trio-link rel="stylesheet" href="/css/app.css">
 </head>
 
 <body>
@@ -15,12 +15,13 @@
         <article class="article">
             <img data-trio-link src="" alt="article image" class="article__img">
             <h1 class="article__title"></h1>
-            <h2 class="article__metadata">
+            <h2 class="article__info">
                 Posted to <span class="article__category"></span> on <span class="article__date"></span>
             </h2>
             <div data-trio-fragment class="article__body"></div>
         </article>
         <nav data-trio-include="article-navigator.html"></nav>
+        <aside data-trio-include="related-articles-list.html"></aside>
         <aside data-trio-include="categorylist.html"></aside>
     </main>
     <footer data-trio-include="footer.html"></footer>

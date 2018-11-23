@@ -1,0 +1,16 @@
+.related-articles {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.related-articles__list {
+    @extend %archive__list;
+}
+
+.related-articles__list-item {
+    @extend %archive__list-item;
+}
+
+.related-articles__list-item-link {
+    @extend %archive__list-item-link;
+}

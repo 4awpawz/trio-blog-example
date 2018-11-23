@@ -1,17 +1,15 @@
 .articles-by-category {
-    display: block;
+    @extend %archive;
 }
 
 .articles-by-category__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    @extend %archive__list;
 }
 
 .articles-by-category__list-item {
-    color: $lighter-text-color;
+    @extend %archive__list-item;
 }
 
 .articles-by-category__list-item-link {
-    color: inherit;
+    @extend %archive__list-item-link;
 }

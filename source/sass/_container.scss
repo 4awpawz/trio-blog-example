@@ -1,4 +1,17 @@
 .container {
-    max-width: 80%;
+    max-width: 95%;
     margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 50%;
+        margin: 0 auto;
+    }
 }

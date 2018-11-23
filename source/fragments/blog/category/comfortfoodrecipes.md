@@ -1,8 +1,8 @@
 <!-- 
 template: articlesbycategory.html
 title: Articles About Italian Food
-forCategory: italian food
+forCategory: comfort food recipes
 callback: articlesbycategory
 -->
 
-# Italian Food Articles
+# Comfort Food Recipes

@@ -1,12 +1,12 @@
 <!-- 
 template: article.html
-title: Food That Makes Me Happy
+title: Holidays Are The Best Time To Cook
 appendToTarget: true
-category: comfort food recipes
+category: holiday recipes
 callback: article
-image: spaghetti-and-meatballs.jpg
+image: turkeydinner.jpg
 -->
-Italian food to me is happy food. It's the kind of food I want to eat all the time.
+Thanksgiving Day is nearly upon us and my digestive juices are already churning. It's time to start planning the Thanksgiving Day meal.
 <!-- end -->
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dicta eum nesciunt cupiditate nemo adipisci similique amet, cumque quas tempora. Accusamus exercitationem quibusdam velit quaerat enim dicta corrupti ex rem?
 Obcaecati ea doloremque a temporibus repellendus tenetur quos itaque sed! Eos ex explicabo aut numquam accusantium. Temporibus odio eveniet quidem ipsum eos voluptates consequuntur aut in. Ipsam dolores laborum corrupti.
