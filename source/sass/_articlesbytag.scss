@@ -1,0 +1,15 @@
+.articles-by-tag {
+    @extend %archive;
+}
+
+.articles-by-tag__list {
+    @extend %archive__list;
+}
+
+.articles-by-tag__list-item {
+    @extend %archive__list-item;
+}
+
+.articles-by-tag__list-item-link {
+    @extend %archive__list-item-link;
+}

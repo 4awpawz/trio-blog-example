@@ -1,5 +1,6 @@
 const reload = require("require-nocache")(module);
 const categoriesList = reload("./lib/categorieslist");
+const articlesList = reload("./lib/articleslist");
 const articleNavigator = reload("./lib/articlenavigator");
 const relatedArticlesList = reload("./lib/relatedarticleslist");
 
@@ -12,4 +13,5 @@ module.exports = ({ $, page, site }) => {
     articleNavigator($, page);
     relatedArticlesList($, page);
     categoriesList($, site);
+    articlesList($, site);
 };

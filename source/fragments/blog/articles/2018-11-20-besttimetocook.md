@@ -2,7 +2,9 @@
 template: article.html
 title: Holidays Are The Best Time To Cook
 appendToTarget: true
-category: holiday recipes
+category: Holiday Recipes
+tag:
+- Thanksgiving Day
 callback: article
 image: turkeydinner.jpg
 -->

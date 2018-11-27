@@ -1,7 +1,7 @@
 <!-- 
 template: articlesbycategory.html
 title: Articles About Food
-forCategory: holiday recipes
+forCategory: Holiday Recipes
 callback: articlesbycategory
 -->
 

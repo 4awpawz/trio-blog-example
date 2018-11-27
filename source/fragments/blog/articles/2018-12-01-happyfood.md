@@ -2,7 +2,9 @@
 template: article.html
 title: Food That Makes Me Happy
 appendToTarget: true
-category: comfort food recipes
+category: Comfort Food Recipes
+tag:
+- Pizza
 callback: article
 image: spaghetti-and-meatballs.jpg
 -->

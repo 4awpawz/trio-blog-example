@@ -2,7 +2,9 @@
 template: article.html
 title: Food, My Passion
 appendToTarget: true
-category: holiday recipes
+category: Holiday Recipes
+tag:
+- Thanksgiving Day
 callback: article
 image: thanks-giving-day-table.jpg
 -->
