@@ -1,6 +1,4 @@
 module.exports = ({ $, page, site, cheerio }) => {
-    // console.log(site.sortedTagCatalog[0].related[0]);
-    console.log(page.matter.data.forTag);
     site.sortedTagCatalog.find(item => item.tag === page.matter.data.forTag)
         .related.forEach(article => {
             $("ul.articles-by-tag__list").append(/* html */`
