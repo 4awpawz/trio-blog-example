@@ -18,6 +18,7 @@ $button-value-map: (width: 6rem, border-color: $lightest-text-color, border-radi
 .article-navigator__list-item-left, .article-navigator__list-item-right {
     flex: 50%;
     color: $default-text-color;
+    font-size: .85rem;
 }
 
 
@@ -31,10 +32,11 @@ $button-value-map: (width: 6rem, border-color: $lightest-text-color, border-radi
 
 .article-navigator__list-item-left--hidden, .article-navigator__list-item-right--hidden {
     display: none;
+    font-size: inherit;
 }
 
 .article-navigator__list-item-link {
-    @include button($button-value-map...)
+    @include button($button-value-map...);
 }
 
 .article-navigator__list-item-link:hover {
