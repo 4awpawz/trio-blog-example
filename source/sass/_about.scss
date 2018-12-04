@@ -1,0 +1,12 @@
+.about__img {
+    width: 100%;
+    height: 275px;
+    @extend %img-shadow;
+}
+
+@media (min-width: 992px) {
+    .about__img {
+        width: 100%;
+        height: 350px;
+    }
+}
