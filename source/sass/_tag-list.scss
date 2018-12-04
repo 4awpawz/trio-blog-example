@@ -1,20 +1,20 @@
-.category {
+.tag {
     @extend %metadata;
 }
-.category__list {
+.tag__list {
     @extend %metadata__list;
 }
 
-.category__list-item {
+.tag__list-item {
     @extend %metadata__list-item;
 }
 
-.category__link {
+.tag__link {
     @extend %metadata__link;
 }
 
 @media (min-width: 640px) {
-    .category {
+    .tag {
         flex: 25%;
     }
 }

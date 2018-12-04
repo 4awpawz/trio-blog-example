@@ -1,13 +1,13 @@
 const reload = require("require-nocache")(module);
 const categoriesList = reload("./lib/categorieslist");
-const articlesList = reload("./lib/articleslist");
+const tagslist = reload("./lib/tagslist");
 
 module.exports = ({ $, site }) => {
     $("div.blog__body").append(/* html */`
         <ul class="blog__article-list"></ul>
     `);
     categoriesList($, site);
-    articlesList($, site);
+    tagslist($, site);
     site.articlesCatalog.forEach(article => {
         $("ul.blog__article-list").append(/* html */`
             <li class="blog__article-list-item">
