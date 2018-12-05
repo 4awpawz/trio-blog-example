@@ -1,0 +1,34 @@
+$button-value-map: (border-color: $lightest-text-color, border-radius: 20px, box-shadow-color: gray, margin: 3px);
+
+.article-tags {
+    display: block;
+}
+
+.article-tags__list {
+    display: flex;
+    flex: row wrap;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: .5rem;
+    background-color: $default-background-color;
+    border-radius: 3px;
+}
+
+.article-tags__list-item {
+    display: initial;
+}
+
+.article-tags__list-item-link {
+    display: inline-block;
+    @include button($button-value-map...);
+    font-size: .57rem;
+    padding: 3px 15px;
+}
+
+.article-tags__list-item-link:hover {
+    background-color: $lightest-text-color;
+    background-image: linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,.5));
+    font-weight: bold;
+    color: white;
+}
