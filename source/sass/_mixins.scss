@@ -1,5 +1,5 @@
 // buttons
-@mixin button($width, $border-color, $border-radius, $box-shadow-color, $margin: 10px) {
+@mixin button($border-color, $border-radius, $box-shadow-color, $width: initial, $margin: 10px) {
     display: inline-block;
     text-align: center;
     width: $width;
