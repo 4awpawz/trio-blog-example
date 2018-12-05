@@ -9,8 +9,8 @@
     @extend %metadata__list-item;
 }
 
-.category__link {
-    @extend %metadata__link;
+.category__list-item-link {
+    @extend %metadata__list-item-link;
 }
 
 @media (min-width: 640px) {
