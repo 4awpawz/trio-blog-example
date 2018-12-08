@@ -1,6 +1,5 @@
 .related-articles {
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    @extend %archive;
 }
 
 .related-articles__list {

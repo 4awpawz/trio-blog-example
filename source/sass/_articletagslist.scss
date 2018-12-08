@@ -2,17 +2,19 @@ $button-value-map: (border-color: $lightest-text-color, border-radius: 20px, box
 
 .article-tags {
     display: block;
+    border-top: solid 1px $lightest-text-color;
+    border-bottom: solid 1px $lightest-text-color;
+    padding: 7.5px 0;
+    margin-bottom: 15px;
 }
 
 .article-tags__list {
     display: flex;
-    flex: row wrap;
+    flex-flow: row wrap;
     width: 100%;
     list-style: none;
     margin: 0;
-    padding: .5rem;
-    background-color: $default-background-color;
-    border-radius: 3px;
+    padding: 0;
 }
 
 .article-tags__list-item {

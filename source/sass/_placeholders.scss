@@ -5,6 +5,9 @@
 // articles list
 %archive {
     display: block;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px $lightest-text-color;
 }
 
 %archive__list {
@@ -25,7 +28,8 @@
 
 // categories and tags list
 %metadata {
-    display: block;
+    // display: block;
+    @extend %archive;
 }
 
 %metadata__list {
