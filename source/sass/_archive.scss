@@ -14,3 +14,15 @@
     @extend %archive__list-item-link;
 }
 
+.archive__img {
+    width: 100%;
+    height: 275px;
+    @extend %img-shadow;
+}
+
+@media (min-width: 992px) {
+    .archive__img {
+        width: 100%;
+        height: 350px;
+    }
+}
