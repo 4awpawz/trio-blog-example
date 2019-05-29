@@ -1,0 +1,852 @@
+[
+    {
+        "path": "source/.DS_Store",
+        "mtimeMs": 1542811064000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/callbacks/archive.js",
+        "mtimeMs": 1559147938000,
+        "type": "callback",
+        "isStale": true,
+        "includeDeps": [],
+        "templateDeps": [
+            "source/templates/archive.html"
+        ],
+        "fragDeps": [
+            "source/fragments/archive.md"
+        ]
+    },
+    {
+        "path": "source/callbacks/article.js",
+        "mtimeMs": 1559141398000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [],
+        "fragDeps": []
+    },
+    {
+        "path": "source/callbacks/articlenavigator.js",
+        "mtimeMs": 1559140848000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [],
+        "fragDeps": []
+    },
+    {
+        "path": "source/callbacks/articlesbycategory.js",
+        "mtimeMs": 1559147247000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [
+            "source/templates/articlesbycategory.html"
+        ],
+        "fragDeps": [
+            "source/fragments/blog/category/comfortfoodrecipes.md",
+            "source/fragments/blog/category/holidayfoodrecipes.md"
+        ]
+    },
+    {
+        "path": "source/callbacks/articlesbytag.js",
+        "mtimeMs": 1559147299000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [
+            "source/templates/articlesbytag.html"
+        ],
+        "fragDeps": [
+            "source/fragments/blog/tag/pasta.md",
+            "source/fragments/blog/tag/thanksgiving day.md"
+        ]
+    },
+    {
+        "path": "source/callbacks/articletagslist.js",
+        "mtimeMs": 1559141960000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [],
+        "fragDeps": []
+    },
+    {
+        "path": "source/callbacks/blogarticlelist.js",
+        "mtimeMs": 1559146129000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [],
+        "fragDeps": []
+    },
+    {
+        "path": "source/callbacks/blogcategorylist.js",
+        "mtimeMs": 1559141917000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [],
+        "fragDeps": []
+    },
+    {
+        "path": "source/callbacks/blogtaglist.js",
+        "mtimeMs": 1559141927000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [],
+        "fragDeps": []
+    },
+    {
+        "path": "source/callbacks/relatedarticleslist.js",
+        "mtimeMs": 1559141939000,
+        "type": "callback",
+        "isStale": false,
+        "includeDeps": [],
+        "templateDeps": [],
+        "fragDeps": []
+    },
+    {
+        "path": "source/fragments/about.md",
+        "mtimeMs": 1543960619000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<img data-trio-link class=\"about__img\" src=\"/media/food-preparation.jpg\" alt=\"about page image\">\n<br>\n\n<h1 id=\"about-foodies\">About Foodies</h1>\n<p>It&#39;s all about the food. Preparing it, cooking it and, of course, eating it.</p>\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veritatis provident facere fuga sequi, soluta voluptatibus quia quaerat consequatur voluptatum possimus, dolores tempore eius debitis voluptas sint mollitia! Labore, molestias!</p>\n",
+            "data": {
+                "template": "source/templates/default.html",
+                "title": "About Foodies",
+                "appendToTarget": true
+            },
+            "isEmpty": false,
+            "excerpt": ""
+        },
+        "id": 1,
+        "destPath": "public/about/index.html",
+        "url": "/about/"
+    },
+    {
+        "path": "source/fragments/archive.md",
+        "mtimeMs": 1559147842000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "",
+            "data": {
+                "template": "source/templates/archive.html",
+                "title": "Archive",
+                "appendToTarget": true
+            },
+            "isEmpty": false,
+            "excerpt": ""
+        },
+        "id": 74,
+        "destPath": "public/archive/index.html",
+        "url": "/archive/"
+    },
+    {
+        "path": "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+        "mtimeMs": 1559140326000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<p>I&#39;m a foodie. I love everything about food. I love cooking it and I love to eat it, especially during the holidays.</p>\n<!-- end -->\n<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dicta eum nesciunt cupiditate nemo adipisci similique amet, cumque quas tempora. Accusamus exercitationem quibusdam velit quaerat enim dicta corrupti ex rem?\nObcaecati ea doloremque a temporibus repellendus tenetur quos itaque sed! Eos ex explicabo aut numquam accusantium. Temporibus odio eveniet quidem ipsum eos voluptates consequuntur aut in. Ipsam dolores laborum corrupti.\nCorrupti repellendus ipsa, est alias, aperiam culpa voluptate, amet aspernatur ab dolore illum non odit aliquid vero officiis mollitia rem ad numquam delectus blanditiis ullam! Nam expedita et minus nesciunt!</p>\n<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore iste asperiores voluptatibus. Aperiam, rem neque deserunt repudiandae officia, totam repellendus laboriosam ab architecto atque labore corporis autem? Doloribus, accusantium.Possimus ipsam adipisci qui praesentium cumque culpa libero perferendis tempore dignissimos, a aperiam ipsum non eveniet eaque cum! Illo suscipit fuga nulla temporibus ipsum dicta eius consequuntur dolore voluptatum obcaecati.</p>\n",
+            "data": {
+                "template": "source/templates/article.html",
+                "title": "Food, My Passion",
+                "appendToTarget": true,
+                "category": [
+                    "Holiday Recipes"
+                ],
+                "tag": [
+                    "Thanksgiving Day"
+                ],
+                "image": "thanks-giving-day-table.jpg"
+            },
+            "isEmpty": false,
+            "excerpt": "I'm a foodie. I love everything about food. I love cooking it and I love to eat it, especially during the holidays.\n"
+        },
+        "id": 3,
+        "destPath": "public/blog/holiday recipes/2018/11/18/foodismypassion/index.html",
+        "url": "/blog/holiday%20recipes/2018/11/18/foodismypassion/",
+        "articleDate": "2018-11-18",
+        "nextArticleUrl": "/blog/holiday%20recipes/2018/11/20/besttimetocook/",
+        "previousArticleUrl": "",
+        "relatedArticlesByTag": [
+            {
+                "tag": "Thanksgiving Day",
+                "related": [
+                    {
+                        "articleDate": "2018-11-20",
+                        "url": "/blog/holiday%20recipes/2018/11/20/besttimetocook/",
+                        "title": "Holidays Are The Best Time To Cook",
+                        "id": 4,
+                        "excerpt": "Thanksgiving Day is nearly upon us and my digestive juices are already churning. It's time to start planning the Thanksgiving Day meal.\n"
+                    }
+                ]
+            }
+        ],
+        "relatedArticlesByTagFlattened": [
+            {
+                "articleDate": "2018-11-20",
+                "url": "/blog/holiday%20recipes/2018/11/20/besttimetocook/",
+                "title": "Holidays Are The Best Time To Cook",
+                "id": 4,
+                "excerpt": "Thanksgiving Day is nearly upon us and my digestive juices are already churning. It's time to start planning the Thanksgiving Day meal."
+            }
+        ],
+        "relatedArticlesByCategory": {
+            "category": "Holiday Recipes",
+            "related": [
+                {
+                    "articleDate": "2018-11-20",
+                    "url": "/blog/holiday%20recipes/2018/11/20/besttimetocook/",
+                    "title": "Holidays Are The Best Time To Cook",
+                    "id": 4,
+                    "excerpt": "Thanksgiving Day is nearly upon us and my digestive juices are already churning. It's time to start planning the Thanksgiving Day meal.\n"
+                }
+            ]
+        }
+    },
+    {
+        "path": "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+        "mtimeMs": 1559140333000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<p>Thanksgiving Day is nearly upon us and my digestive juices are already churning. It&#39;s time to start planning the Thanksgiving Day meal.</p>\n<!-- end -->\n<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dicta eum nesciunt cupiditate nemo adipisci similique amet, cumque quas tempora. Accusamus exercitationem quibusdam velit quaerat enim dicta corrupti ex rem?\nObcaecati ea doloremque a temporibus repellendus tenetur quos itaque sed! Eos ex explicabo aut numquam accusantium. Temporibus odio eveniet quidem ipsum eos voluptates consequuntur aut in. Ipsam dolores laborum corrupti.\nCorrupti repellendus ipsa, est alias, aperiam culpa voluptate, amet aspernatur ab dolore illum non odit aliquid vero officiis mollitia rem ad numquam delectus blanditiis ullam! Nam expedita et minus nesciunt!</p>\n<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore iste asperiores voluptatibus. Aperiam, rem neque deserunt repudiandae officia, totam repellendus laboriosam ab architecto atque labore corporis autem? Doloribus, accusantium.Possimus ipsam adipisci qui praesentium cumque culpa libero perferendis tempore dignissimos, a aperiam ipsum non eveniet eaque cum! Illo suscipit fuga nulla temporibus ipsum dicta eius consequuntur dolore voluptatum obcaecati.</p>\n",
+            "data": {
+                "template": "source/templates/article.html",
+                "title": "Holidays Are The Best Time To Cook",
+                "appendToTarget": true,
+                "category": [
+                    "Holiday Recipes"
+                ],
+                "tag": [
+                    "Thanksgiving Day"
+                ],
+                "image": "turkeydinner.jpg"
+            },
+            "isEmpty": false,
+            "excerpt": "Thanksgiving Day is nearly upon us and my digestive juices are already churning. It's time to start planning the Thanksgiving Day meal.\n"
+        },
+        "id": 4,
+        "destPath": "public/blog/holiday recipes/2018/11/20/besttimetocook/index.html",
+        "url": "/blog/holiday%20recipes/2018/11/20/besttimetocook/",
+        "articleDate": "2018-11-20",
+        "nextArticleUrl": "/blog/comfort%20food%20recipes/2018/12/01/happyfood/",
+        "previousArticleUrl": "/blog/holiday%20recipes/2018/11/18/foodismypassion/",
+        "relatedArticlesByTag": [
+            {
+                "tag": "Thanksgiving Day",
+                "related": [
+                    {
+                        "articleDate": "2018-11-18",
+                        "url": "/blog/holiday%20recipes/2018/11/18/foodismypassion/",
+                        "title": "Food, My Passion",
+                        "id": 3,
+                        "excerpt": "I'm a foodie. I love everything about food. I love cooking it and I love to eat it, especially during the holidays.\n"
+                    }
+                ]
+            }
+        ],
+        "relatedArticlesByTagFlattened": [
+            {
+                "articleDate": "2018-11-18",
+                "url": "/blog/holiday%20recipes/2018/11/18/foodismypassion/",
+                "title": "Food, My Passion",
+                "id": 3,
+                "excerpt": "I'm a foodie. I love everything about food. I love cooking it and I love to eat it, especially during the holidays."
+            }
+        ],
+        "relatedArticlesByCategory": {
+            "category": "Holiday Recipes",
+            "related": [
+                {
+                    "articleDate": "2018-11-18",
+                    "url": "/blog/holiday%20recipes/2018/11/18/foodismypassion/",
+                    "title": "Food, My Passion",
+                    "id": 3,
+                    "excerpt": "I'm a foodie. I love everything about food. I love cooking it and I love to eat it, especially during the holidays.\n"
+                }
+            ]
+        }
+    },
+    {
+        "path": "source/fragments/blog/articles/2018-12-01-happyfood.md",
+        "mtimeMs": 1559140338000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<p>Italian food to me is happy food. It&#39;s the kind of food I want to eat all the time.</p>\n<!-- end -->\n<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dicta eum nesciunt cupiditate nemo adipisci similique amet, cumque quas tempora. Accusamus exercitationem quibusdam velit quaerat enim dicta corrupti ex rem?\nObcaecati ea doloremque a temporibus repellendus tenetur quos itaque sed! Eos ex explicabo aut numquam accusantium. Temporibus odio eveniet quidem ipsum eos voluptates consequuntur aut in. Ipsam dolores laborum corrupti.\nCorrupti repellendus ipsa, est alias, aperiam culpa voluptate, amet aspernatur ab dolore illum non odit aliquid vero officiis mollitia rem ad numquam delectus blanditiis ullam! Nam expedita et minus nesciunt!</p>\n<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore iste asperiores voluptatibus. Aperiam, rem neque deserunt repudiandae officia, totam repellendus laboriosam ab architecto atque labore corporis autem? Doloribus, accusantium.Possimus ipsam adipisci qui praesentium cumque culpa libero perferendis tempore dignissimos, a aperiam ipsum non eveniet eaque cum! Illo suscipit fuga nulla temporibus ipsum dicta eius consequuntur dolore voluptatum obcaecati.</p>\n",
+            "data": {
+                "template": "source/templates/article.html",
+                "title": "Food That Makes Me Happy",
+                "appendToTarget": true,
+                "category": [
+                    "Comfort Food Recipes"
+                ],
+                "tag": [
+                    "Pasta"
+                ],
+                "image": "spaghetti-and-meatballs.jpg"
+            },
+            "isEmpty": false,
+            "excerpt": "Italian food to me is happy food. It's the kind of food I want to eat all the time.\n"
+        },
+        "id": 5,
+        "destPath": "public/blog/comfort food recipes/2018/12/01/happyfood/index.html",
+        "url": "/blog/comfort%20food%20recipes/2018/12/01/happyfood/",
+        "articleDate": "2018-12-01",
+        "nextArticleUrl": "/blog/comfort%20food%20recipes/2018/12/04/pastasalad/",
+        "previousArticleUrl": "/blog/holiday%20recipes/2018/11/20/besttimetocook/",
+        "relatedArticlesByTag": [
+            {
+                "tag": "Pasta",
+                "related": [
+                    {
+                        "articleDate": "2018-12-04",
+                        "url": "/blog/comfort%20food%20recipes/2018/12/04/pastasalad/",
+                        "title": "Pasta Salad",
+                        "id": 6,
+                        "excerpt": "Up your lunch menu game and cook up some delicious pasta salad.\n"
+                    }
+                ]
+            }
+        ],
+        "relatedArticlesByTagFlattened": [
+            {
+                "articleDate": "2018-12-04",
+                "url": "/blog/comfort%20food%20recipes/2018/12/04/pastasalad/",
+                "title": "Pasta Salad",
+                "id": 6,
+                "excerpt": "Up your lunch menu game and cook up some delicious pasta salad."
+            }
+        ],
+        "relatedArticlesByCategory": {
+            "category": "Comfort Food Recipes",
+            "related": [
+                {
+                    "articleDate": "2018-12-04",
+                    "url": "/blog/comfort%20food%20recipes/2018/12/04/pastasalad/",
+                    "title": "Pasta Salad",
+                    "id": 6,
+                    "excerpt": "Up your lunch menu game and cook up some delicious pasta salad.\n"
+                }
+            ]
+        }
+    },
+    {
+        "path": "source/fragments/blog/articles/2018-12-04-pastasalad.md",
+        "mtimeMs": 1559140342000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<p>Up your lunch menu game and cook up some delicious pasta salad.</p>\n<!-- end -->\n<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dicta eum nesciunt cupiditate nemo adipisci similique amet, cumque quas tempora. Accusamus exercitationem quibusdam velit quaerat enim dicta corrupti ex rem?\nObcaecati ea doloremque a temporibus repellendus tenetur quos itaque sed! Eos ex explicabo aut numquam accusantium. Temporibus odio eveniet quidem ipsum eos voluptates consequuntur aut in. Ipsam dolores laborum corrupti.\nCorrupti repellendus ipsa, est alias, aperiam culpa voluptate, amet aspernatur ab dolore illum non odit aliquid vero officiis mollitia rem ad numquam delectus blanditiis ullam! Nam expedita et minus nesciunt!</p>\n<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore iste asperiores voluptatibus. Aperiam, rem neque deserunt repudiandae officia, totam repellendus laboriosam ab architecto atque labore corporis autem? Doloribus, accusantium.Possimus ipsam adipisci qui praesentium cumque culpa libero perferendis tempore dignissimos, a aperiam ipsum non eveniet eaque cum! Illo suscipit fuga nulla temporibus ipsum dicta eius consequuntur dolore voluptatum obcaecati.</p>\n",
+            "data": {
+                "template": "source/templates/article.html",
+                "title": "Pasta Salad",
+                "appendToTarget": true,
+                "category": [
+                    "Comfort Food Recipes"
+                ],
+                "tag": [
+                    "Pasta"
+                ],
+                "image": "pasta-salad.jpg"
+            },
+            "isEmpty": false,
+            "excerpt": "Up your lunch menu game and cook up some delicious pasta salad.\n"
+        },
+        "id": 6,
+        "destPath": "public/blog/comfort food recipes/2018/12/04/pastasalad/index.html",
+        "url": "/blog/comfort%20food%20recipes/2018/12/04/pastasalad/",
+        "articleDate": "2018-12-04",
+        "nextArticleUrl": "",
+        "previousArticleUrl": "/blog/comfort%20food%20recipes/2018/12/01/happyfood/",
+        "relatedArticlesByTag": [
+            {
+                "tag": "Pasta",
+                "related": [
+                    {
+                        "articleDate": "2018-12-01",
+                        "url": "/blog/comfort%20food%20recipes/2018/12/01/happyfood/",
+                        "title": "Food That Makes Me Happy",
+                        "id": 5,
+                        "excerpt": "Italian food to me is happy food. It's the kind of food I want to eat all the time.\n"
+                    }
+                ]
+            }
+        ],
+        "relatedArticlesByTagFlattened": [
+            {
+                "articleDate": "2018-12-01",
+                "url": "/blog/comfort%20food%20recipes/2018/12/01/happyfood/",
+                "title": "Food That Makes Me Happy",
+                "id": 5,
+                "excerpt": "Italian food to me is happy food. It's the kind of food I want to eat all the time."
+            }
+        ],
+        "relatedArticlesByCategory": {
+            "category": "Comfort Food Recipes",
+            "related": [
+                {
+                    "articleDate": "2018-12-01",
+                    "url": "/blog/comfort%20food%20recipes/2018/12/01/happyfood/",
+                    "title": "Food That Makes Me Happy",
+                    "id": 5,
+                    "excerpt": "Italian food to me is happy food. It's the kind of food I want to eat all the time.\n"
+                }
+            ]
+        }
+    },
+    {
+        "path": "source/fragments/blog/category/comfortfoodrecipes.md",
+        "mtimeMs": 1559147006000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<h1 id=\"comfort-food-recipes\">Comfort Food Recipes</h1>\n",
+            "data": {
+                "template": "source/templates/articlesbycategory.html",
+                "title": "Articles About Italian Food",
+                "forCategory": [
+                    "Comfort Food Recipes"
+                ],
+                "appendToTarget": false
+            },
+            "isEmpty": false,
+            "excerpt": ""
+        },
+        "id": 58,
+        "destPath": "public/blog/category/Comfort Food Recipes/index.html",
+        "url": "/blog/category/Comfort%20Food%20Recipes/"
+    },
+    {
+        "path": "source/fragments/blog/category/holidayfoodrecipes.md",
+        "mtimeMs": 1559147010000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<h1 id=\"holiday-recipes\">Holiday Recipes</h1>\n",
+            "data": {
+                "template": "source/templates/articlesbycategory.html",
+                "title": "Articles About Food",
+                "forCategory": [
+                    "Holiday Recipes"
+                ],
+                "appendToTarget": false
+            },
+            "isEmpty": false,
+            "excerpt": ""
+        },
+        "id": 59,
+        "destPath": "public/blog/category/Holiday Recipes/index.html",
+        "url": "/blog/category/Holiday%20Recipes/"
+    },
+    {
+        "path": "source/fragments/blog/tag/pasta.md",
+        "mtimeMs": 1559147035000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<h1 id=\"articles-tagged-with-pasta\">Articles Tagged With Pasta</h1>\n",
+            "data": {
+                "template": "source/templates/articlesbytag.html",
+                "title": "Articles Tagged With Pasta",
+                "forTag": "Pasta",
+                "appendToTarget": false
+            },
+            "isEmpty": false,
+            "excerpt": ""
+        },
+        "id": 60,
+        "destPath": "public/blog/tag/pasta/index.html",
+        "url": "/blog/tag/pasta/"
+    },
+    {
+        "path": "source/fragments/blog/tag/thanksgiving day.md",
+        "mtimeMs": 1559147039000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "<h1 id=\"articles-tagged-with-thanksgiving-day\">Articles Tagged With Thanksgiving Day</h1>\n",
+            "data": {
+                "template": "source/templates/articlesbytag.html",
+                "title": "Articles Tagged With Thanksgiving Day",
+                "forTag": "Thanksgiving Day",
+                "appendToTarget": false
+            },
+            "isEmpty": false,
+            "excerpt": ""
+        },
+        "id": 61,
+        "destPath": "public/blog/tag/thanksgiving day/index.html",
+        "url": "/blog/tag/thanksgiving%20day/"
+    },
+    {
+        "path": "source/fragments/index.md",
+        "mtimeMs": 1542856697000,
+        "type": "fragment",
+        "isStale": false,
+        "matter": {
+            "content": "",
+            "data": {
+                "template": "source/templates/blog.html",
+                "title": "Welcome To My Blog",
+                "appendToTarget": true,
+                "callback": "blog"
+            },
+            "isEmpty": false,
+            "excerpt": ""
+        },
+        "id": 11,
+        "destPath": "public/index.html",
+        "url": "/"
+    },
+    {
+        "path": "source/includes/article-navigator.html",
+        "mtimeMs": 1559142219000,
+        "type": "include",
+        "isStale": false,
+        "templateDeps": [
+            "source/templates/article.html"
+        ],
+        "fragDeps": [
+            "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+            "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+            "source/fragments/blog/articles/2018-12-01-happyfood.md",
+            "source/fragments/blog/articles/2018-12-04-pastasalad.md"
+        ]
+    },
+    {
+        "path": "source/includes/article-tags-list.html",
+        "mtimeMs": 1559142226000,
+        "type": "include",
+        "isStale": false,
+        "templateDeps": [
+            "source/templates/article.html"
+        ],
+        "fragDeps": [
+            "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+            "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+            "source/fragments/blog/articles/2018-12-01-happyfood.md",
+            "source/fragments/blog/articles/2018-12-04-pastasalad.md"
+        ]
+    },
+    {
+        "path": "source/includes/categorylist.html",
+        "mtimeMs": 1559142246000,
+        "type": "include",
+        "isStale": false,
+        "templateDeps": [
+            "source/templates/article.html",
+            "source/templates/blog.html"
+        ],
+        "fragDeps": [
+            "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+            "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+            "source/fragments/blog/articles/2018-12-01-happyfood.md",
+            "source/fragments/blog/articles/2018-12-04-pastasalad.md",
+            "source/fragments/index.md"
+        ]
+    },
+    {
+        "path": "source/includes/footer.html",
+        "mtimeMs": 1545414608000,
+        "type": "include",
+        "isStale": false,
+        "templateDeps": [
+            "source/templates/archive.html",
+            "source/templates/article.html",
+            "source/templates/articlesbycategory.html",
+            "source/templates/articlesbytag.html",
+            "source/templates/blog.html",
+            "source/templates/default.html"
+        ],
+        "fragDeps": [
+            "source/fragments/about.md",
+            "source/fragments/archive.md",
+            "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+            "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+            "source/fragments/blog/articles/2018-12-01-happyfood.md",
+            "source/fragments/blog/articles/2018-12-04-pastasalad.md",
+            "source/fragments/blog/category/comfortfoodrecipes.md",
+            "source/fragments/blog/category/holidayfoodrecipes.md",
+            "source/fragments/blog/tag/pasta.md",
+            "source/fragments/blog/tag/thanksgiving day.md",
+            "source/fragments/index.md"
+        ]
+    },
+    {
+        "path": "source/includes/header.html",
+        "mtimeMs": 1543272471000,
+        "type": "include",
+        "isStale": false,
+        "templateDeps": [
+            "source/templates/archive.html",
+            "source/templates/article.html",
+            "source/templates/articlesbycategory.html",
+            "source/templates/articlesbytag.html",
+            "source/templates/blog.html",
+            "source/templates/default.html"
+        ],
+        "fragDeps": [
+            "source/fragments/about.md",
+            "source/fragments/archive.md",
+            "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+            "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+            "source/fragments/blog/articles/2018-12-01-happyfood.md",
+            "source/fragments/blog/articles/2018-12-04-pastasalad.md",
+            "source/fragments/blog/category/comfortfoodrecipes.md",
+            "source/fragments/blog/category/holidayfoodrecipes.md",
+            "source/fragments/blog/tag/pasta.md",
+            "source/fragments/blog/tag/thanksgiving day.md",
+            "source/fragments/index.md"
+        ]
+    },
+    {
+        "path": "source/includes/related-articles-list.html",
+        "mtimeMs": 1559142354000,
+        "type": "include",
+        "isStale": false,
+        "templateDeps": [
+            "source/templates/article.html"
+        ],
+        "fragDeps": [
+            "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+            "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+            "source/fragments/blog/articles/2018-12-01-happyfood.md",
+            "source/fragments/blog/articles/2018-12-04-pastasalad.md"
+        ]
+    },
+    {
+        "path": "source/includes/taglist.html",
+        "mtimeMs": 1559142263000,
+        "type": "include",
+        "isStale": false,
+        "templateDeps": [
+            "source/templates/article.html",
+            "source/templates/blog.html"
+        ],
+        "fragDeps": [
+            "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+            "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+            "source/fragments/blog/articles/2018-12-01-happyfood.md",
+            "source/fragments/blog/articles/2018-12-04-pastasalad.md",
+            "source/fragments/index.md"
+        ]
+    },
+    {
+        "path": "source/media/food-preparation.jpg",
+        "mtimeMs": 1543960619000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/media/pasta-salad.jpg",
+        "mtimeMs": 1543960619000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/media/recipiesbox.jpg",
+        "mtimeMs": 1544546368000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/media/spaghetti-and-meatballs.jpg",
+        "mtimeMs": 1542856697000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/media/thanks-giving-day-table.jpg",
+        "mtimeMs": 1542856697000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/media/turkeydinner.jpg",
+        "mtimeMs": 1543272471000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_about.scss",
+        "mtimeMs": 1544543940000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_archive.scss",
+        "mtimeMs": 1544546368000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_article.scss",
+        "mtimeMs": 1543272471000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_articlenavigator.scss",
+        "mtimeMs": 1544285443000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_articlesbycategory.scss",
+        "mtimeMs": 1543272471000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_articlesbytag.scss",
+        "mtimeMs": 1543938988000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_articletagslist.scss",
+        "mtimeMs": 1544289225000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_blog.scss",
+        "mtimeMs": 1543272471000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_category-list.scss",
+        "mtimeMs": 1543988291000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_container.scss",
+        "mtimeMs": 1543272471000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_footer.scss",
+        "mtimeMs": 1545414608000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_header.scss",
+        "mtimeMs": 1542856697000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_mixins.scss",
+        "mtimeMs": 1543973904000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_placeholders.scss",
+        "mtimeMs": 1544289225000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_relatedarticles.scss",
+        "mtimeMs": 1544289225000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_reset.scss",
+        "mtimeMs": 1543272471000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_tag-list.scss",
+        "mtimeMs": 1543988291000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/_variables.scss",
+        "mtimeMs": 1542856697000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/sass/app.scss",
+        "mtimeMs": 1543973904000,
+        "type": "*",
+        "isStale": false
+    },
+    {
+        "path": "source/templates/archive.html",
+        "mtimeMs": 1559147888000,
+        "type": "template",
+        "isStale": false,
+        "fragDeps": [
+            "source/fragments/archive.md"
+        ]
+    },
+    {
+        "path": "source/templates/article.html",
+        "mtimeMs": 1559142270000,
+        "type": "template",
+        "isStale": false,
+        "fragDeps": [
+            "source/fragments/blog/articles/2018-11-18-foodismypassion.md",
+            "source/fragments/blog/articles/2018-11-20-besttimetocook.md",
+            "source/fragments/blog/articles/2018-12-01-happyfood.md",
+            "source/fragments/blog/articles/2018-12-04-pastasalad.md"
+        ]
+    },
+    {
+        "path": "source/templates/articlesbycategory.html",
+        "mtimeMs": 1559146781000,
+        "type": "template",
+        "isStale": false,
+        "fragDeps": [
+            "source/fragments/blog/category/comfortfoodrecipes.md",
+            "source/fragments/blog/category/holidayfoodrecipes.md"
+        ]
+    },
+    {
+        "path": "source/templates/articlesbytag.html",
+        "mtimeMs": 1559147123000,
+        "type": "template",
+        "isStale": false,
+        "fragDeps": [
+            "source/fragments/blog/tag/pasta.md",
+            "source/fragments/blog/tag/thanksgiving day.md"
+        ]
+    },
+    {
+        "path": "source/templates/blog.html",
+        "mtimeMs": 1559142276000,
+        "type": "template",
+        "isStale": false,
+        "fragDeps": [
+            "source/fragments/index.md"
+        ]
+    },
+    {
+        "path": "source/templates/default.html",
+        "mtimeMs": 1543960619000,
+        "type": "template",
+        "isStale": false,
+        "fragDeps": [
+            "source/fragments/about.md"
+        ]
+    }
+]

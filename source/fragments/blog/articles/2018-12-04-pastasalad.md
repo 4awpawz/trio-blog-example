@@ -5,7 +5,6 @@ appendToTarget: true
 category: Comfort Food Recipes
 tag:
 - Pasta
-callback: article
 image: pasta-salad.jpg
 -->
 Up your lunch menu game and cook up some delicious pasta salad.

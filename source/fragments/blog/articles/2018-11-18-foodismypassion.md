@@ -5,7 +5,6 @@ appendToTarget: true
 category: Holiday Recipes
 tag:
 - Thanksgiving Day
-callback: article
 image: thanks-giving-day-table.jpg
 -->
 I'm a foodie. I love everything about food. I love cooking it and I love to eat it, especially during the holidays.

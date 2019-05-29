@@ -19,6 +19,6 @@
   "homepage": "https://github.com/4awpawz/trio-blog-example#readme",
   "dependencies": {},
   "devDependencies": {
-    "require-nocache": "^1.0.0"
+    "require-uncached": "^2.0.0"
   }
 }

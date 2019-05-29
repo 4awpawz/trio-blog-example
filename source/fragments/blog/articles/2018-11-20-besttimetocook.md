@@ -5,7 +5,6 @@ appendToTarget: true
 category: Holiday Recipes
 tag:
 - Thanksgiving Day
-callback: article
 image: turkeydinner.jpg
 -->
 Thanksgiving Day is nearly upon us and my digestive juices are already churning. It's time to start planning the Thanksgiving Day meal.

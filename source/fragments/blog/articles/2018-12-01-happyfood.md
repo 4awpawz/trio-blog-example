@@ -5,7 +5,6 @@ appendToTarget: true
 category: Comfort Food Recipes
 tag:
 - Pasta
-callback: article
 image: spaghetti-and-meatballs.jpg
 -->
 Italian food to me is happy food. It's the kind of food I want to eat all the time.

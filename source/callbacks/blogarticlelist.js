@@ -1,15 +1,6 @@
-const reload = require("require-nocache")(module);
-const categoriesList = reload("./lib/categorieslist");
-const tagslist = reload("./lib/tagslist");
-
-module.exports = ({ $, site }) => {
-    $("div.blog__body").append(/* html */`
-        <ul class="blog__article-list"></ul>
-    `);
-    categoriesList($, site);
-    tagslist($, site);
+module.exports = ({ $tag, $, site }) => {
     site.articlesCatalog.forEach(article => {
-        $("ul.blog__article-list").append(/* html */`
+        $tag.append(/* html */`
             <li class="blog__article-list-item">
                 <article class="blog__article">
                     <a data-trio-link class="blog__article-link" href="${article.url}">
