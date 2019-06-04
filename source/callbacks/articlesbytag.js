@@ -1,5 +1,5 @@
 module.exports = ({ $tag, asset, site }) => {
-    site.sortedTagCatalog.find(item => item.tag === asset.matter.data.forTag)
+    site.tagsCatalog.find(item => item.tag === asset.matter.data.forTag)
         .related.forEach(article => {
             $tag.append(/* html */`
             <li class="articles-by-tag__list-item">
