@@ -1,4 +1,4 @@
-module.exports = ({ $tag, $, site }) => {
+module.exports = ({ $tag, site }) => {
     site.articlesCatalog.forEach(article => {
         $tag.append(/* html */`
             <li class="blog__article-list-item">
