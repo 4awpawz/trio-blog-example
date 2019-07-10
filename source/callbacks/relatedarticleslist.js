@@ -1,8 +1,8 @@
 module.exports = ({ $tag, asset }) => {
     const getRelatedSetOfArticles = () => {
         const articlesMap = new Map();
-        asset.relatedArticlesByCategory.related.forEach(article => articlesMap.set(article.id, article));
-        asset.relatedArticlesByTagFlattened.forEach(article => articlesMap.set(article.id, article));
+        asset.relatedArticlesByCategory.related.forEach(article => articlesMap.set(article.url, article));
+        asset.relatedArticlesByTagFlattened.forEach(article => articlesMap.set(article.url, article));
         return articlesMap;
     };
 
