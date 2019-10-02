@@ -1,5 +1,5 @@
 <!-- 
-template: default.html
+template: default
 title: About Foodies
 appendToTarget: true
 -->

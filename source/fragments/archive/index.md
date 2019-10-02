@@ -1,7 +1,7 @@
 <!-- 
-template: archive.html
+template: archive
 title: Archive
 appendToTarget: true
 collection:
-    type: articlesPages
+    filterFn: archivePageFilter
 -->

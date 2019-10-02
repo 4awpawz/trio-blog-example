@@ -1,5 +1,5 @@
 <!-- 
-template: article.html
+template: article
 title: Food, My Passion
 appendToTarget: true
 category: Holiday Recipes

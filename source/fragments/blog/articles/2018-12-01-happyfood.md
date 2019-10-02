@@ -1,5 +1,5 @@
 <!--
-template: article.html
+template: article
 title: Food That Makes Me Happy
 appendToTarget: true
 category: Comfort Food Recipes

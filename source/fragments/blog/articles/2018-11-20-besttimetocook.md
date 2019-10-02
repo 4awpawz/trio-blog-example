@@ -1,5 +1,5 @@
 <!-- 
-template: article.html
+template: article
 title: Holidays Are The Best Time To Cook
 appendToTarget: true
 category: Holiday Recipes

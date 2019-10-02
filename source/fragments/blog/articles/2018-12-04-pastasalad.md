@@ -1,5 +1,5 @@
 <!--
-template: article.html
+template: article
 title: Pasta Salad
 appendToTarget: true
 category: Comfort Food Recipes
