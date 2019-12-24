@@ -1,6 +1,6 @@
 {
     "baseUrl": "/trio-blog-example-pages",
     "permalinks": [
-        "articles: blog"
+        "articles: /"
     ]
 }
